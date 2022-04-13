@@ -18,21 +18,21 @@ public class loginTest {
 	@Test
 	public void login() throws IOException  {
 		
-		//Open chrome browser
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver=new ChromeDriver();
-		
-		//Open URL of the Application
-		driver.get("URL");
-		
-		//Create WebElements
-		WebElement username=driver.findElement(By.xpath(""));
-		
-		WebElement password=driver.findElement(By.xpath(""));
-		
-		
-		//Read MyProject.properties
-		
+//		//Open chrome browser
+//		WebDriverManager.chromedriver().setup();
+//		WebDriver driver=new ChromeDriver();
+//		
+//		//Open URL of the Application
+//		driver.get("URL");
+//		
+//		//Create WebElements
+//		WebElement username=driver.findElement(By.xpath(""));
+//		
+//		WebElement password=driver.findElement(By.xpath(""));
+//		
+//		
+//		//Read MyProject.properties
+//		
 		Properties prop=new Properties();
 		
 		//Load properties file
@@ -46,8 +46,8 @@ public class loginTest {
 		System.out.println("Password Value is ==> " +pwd);
 		//Enter username and password values
 		
-       	username.sendKeys(uName);//AgentHunt
-		password.sendKeys(pwd);//MissionImpossible
+//       	username.sendKeys(uName);//AgentHunt
+//		password.sendKeys(pwd);//MissionImpossible
 
 		//Run CMD- mvn -Dusername=AgentHunt -Dpassword=MissionImpossible clean install
 	}
