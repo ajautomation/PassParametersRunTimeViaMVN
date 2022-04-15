@@ -32,7 +32,7 @@ public class loginTest {
 //		
 //		
 //		//Read MyProject.properties
-//		
+//		//This is feature branch
 		Properties prop=new Properties();
 		
 		//Load properties file
