@@ -35,7 +35,8 @@ public class loginTest {
 //		//This is feature branch
 		Properties prop=new Properties();
 		
-		sum=50;
+		sum="50";
+		testing="1234";
 		//Load properties file
 		
 		prop.load(loginTest.class.getClassLoader().getResourceAsStream("MyProject.properties"));
