@@ -13,7 +13,6 @@
 		<password>default_PASSWORD</password>
 	</properties>
 	
-	
  <build>
 		<plugins>
 			<plugin>
