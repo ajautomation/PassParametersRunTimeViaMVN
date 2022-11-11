@@ -13,7 +13,7 @@
 		<password>default_PASSWORD</password>
 	</properties>
 	
- <build>
+ 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
